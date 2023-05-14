@@ -68,7 +68,7 @@ function Home() {
               <button><img src={EditIcon} alt="" /></button>
             </div>
             <div className="btns">
-              <a href="/">O‘zgartirishlarni bekor qilish</a>
+              <a className='btn' href="/">O‘zgartirishlarni bekor qilish</a>
               <button>O‘zgaririshlarni saqlash</button>
             </div>
           </div>
