@@ -177,17 +177,21 @@
     color: #4E4F5F;
 }
 
-.main__inner-hero .left .add input {
+.main__inner-hero .left .add .add-inp {
     width: 150px;
     height: 56px;
     background: #FFFFFF;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 25px;
     margin-left: 115px;
     outline: none;
     border: 1px solid #808191;
     border-radius: 20px;
 }
 
-.main__inner-hero .left .add button {
+.main__inner-hero .left .add .add-btn {
     border: none;
     background: none;
     outline: none;
@@ -197,7 +201,7 @@
     margin-left: 30px;
 }
 
-.main__inner-hero .add button img {
+.main__inner-hero .add .add-btn img {
     width: 32px;
     height: 32px;
 }
@@ -216,17 +220,21 @@
     color: #4E4F5F;
 }
 
-.main__inner-hero .left .repaired input {
+.main__inner-hero .left .repaired .repaired-inp {
     width: 150px;
     height: 56px;
     background: #FFFFFF;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 25px;
     margin-left: 153px;
     outline: none;
     border: 1px solid #808191;
     border-radius: 20px;
 }
 
-.main__inner-hero .left .repaired button {
+.main__inner-hero .left .repaired .repaired-btn {
     border: none;
     background: none;
     outline: none;
@@ -236,7 +244,7 @@
     margin-left: 30px;
 }
 
-.main__inner-hero .repaired button img {
+.main__inner-hero .repaired .repaired-btn img {
     width: 32px;
     height: 32px;
 }
@@ -255,17 +263,21 @@
     color: #4E4F5F;
 }
 
-.main__inner-hero .left .broken input {
+.main__inner-hero .left .broken .broken-inp {
     width: 150px;
     height: 56px;
     background: #FFFFFF;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 25px;
     margin-left: 205px;
     outline: none;
     border: 1px solid #808191;
     border-radius: 20px;
 }
 
-.main__inner-hero .left .broken button {
+.main__inner-hero .left .broken .broken-btn {
     border: none;
     background: none;
     outline: none;
@@ -275,7 +287,7 @@
     margin-left: 30px;
 }
 
-.main__inner-hero .broken button img {
+.main__inner-hero .broken .broken-btn img {
     width: 32px;
     height: 32px;
 }

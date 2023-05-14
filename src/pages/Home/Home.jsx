@@ -46,17 +46,17 @@ function Home() {
             <div className="left">
               <div className="add">
                 <h4>Yangi qo‘shildi:</h4>
-                <input type="number" />
-                <button><img src={CheckIcon} alt="" /></button>
+                <input className='add-inp' type="number" />
+                <button className='add-btn'><img src={CheckIcon} alt="" /></button>
               </div>
               <div className="repaired">
                 <h4>Ta’mirlandi:</h4>
-                <input type="number" />
-                <button><img src={EditIcon} alt="" /></button>
+                <input className='repaired-inp' type="number" />
+                <button className='repaired-btn'><img src={EditIcon} alt="" /></button>
               </div>
               <div className="broken">
                 <h4>Buzildi:</h4>
-                <input type="number" />
+                <input className='broken-btn' type="number" />
                 <button>
                   <img src={EditIcon} alt="" />
                 </button>
