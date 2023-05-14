@@ -52,13 +52,13 @@ function Home() {
               <div className="repaired">
                 <h4>Ta’mirlandi:</h4>
                 <input className='repaired-inp' type="number" />
-                <button className='repaired-btn'><img src={EditIcon} alt="" /></button>
+                <button className='repaired-btn'><img src={CheckIcon} alt="" /></button>
               </div>
               <div className="broken">
                 <h4>Buzildi:</h4>
                 <input className='broken-btn' type="number" />
                 <button>
-                  <img src={EditIcon} alt="" />
+                  <img src={CheckIcon} alt="" />
                 </button>
               </div>
             </div>
