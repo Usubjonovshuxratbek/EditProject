@@ -56,8 +56,8 @@ function Home() {
               </div>
               <div className="broken">
                 <h4>Buzildi:</h4>
-                <input className='broken-btn' type="number" />
-                <button>
+                <input className='broken-inp' type="number" />
+                <button className='broken-btn'>
                   <img src={CheckIcon} alt="" />
                 </button>
               </div>
