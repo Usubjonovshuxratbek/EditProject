@@ -5,7 +5,7 @@ import './Home.css'
 
 function Home() {
   const fn = (e) => {
-    console.log(e.target.value);
+    
   }
   return (
     <div className='main'>
@@ -14,9 +14,7 @@ function Home() {
           <div className="main__inner-nav">
             <h2>Qurilma turini tanlang:</h2>
             <select onChange={fn}>
-              <option value="/kompyuter">Kompyuter</option>
-              <option value="/kompyuter">Kompyuter</option>
-              <option value="/kompyuter">Kompyuter</option>
+              <option value="kompyuter">Kompyuter</option>
             </select>
           </div>
           <div className="main__inner-hero">
