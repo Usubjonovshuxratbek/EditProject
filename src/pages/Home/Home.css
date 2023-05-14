@@ -1,0 +1,353 @@
+.main {
+    width: 1400px;
+    height: 818px;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.main .main__inner {
+    padding: 60px 120px 0 60px;
+}
+
+.main__inner-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main__inner-nav h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-nav select {
+    margin-left: 60px;
+    margin-top: -15px;
+    background: #F2F6FC;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #808191;
+    padding: 20px 200px 17px 16px;
+    border: none;
+    outline: none;
+}
+
+.main__inner-hero {
+    margin-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__inner-hero .right .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__inner-hero .right .total h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-hero .right .total div {
+    width: 150px;
+    height: 56px;
+    border: 1px solid #808191;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: #FFFFFF;
+}
+
+.main__inner-hero .right .total div span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+    display: inline-block;
+    margin: 12px 59px 13px 59px;
+}
+
+.main__inner-hero .right .total button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.main__inner-hero .right .total button img {
+    width: 32px;
+    height: 32px;
+    padding: 16px 14px;
+    border: 1px solid #00B894;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.main__inner-hero .right .work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main__inner-hero .right .work h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-hero .right .work span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+.main__inner-hero .right .work button {
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 130px;
+}
+
+.main__inner-hero .right .work button img {
+    width: 30px;
+    height: 30px;
+}
+
+.main__inner-hero .right .broken {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 50px;
+    width: 280px;
+}
+
+.main__inner-hero .right .broken h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-hero .right .broken span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+    width: 45px;
+    height: 36px;
+    padding: 0;
+    margin-left: 30px;
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+.main__inner-hero .right .broken button {
+    border: none;
+    outline: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+}
+
+.main__inner-hero .right .broken button img {
+    width: 30px;
+    height: 30px;
+}
+
+.main__inner-hero .left .add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__inner-hero .left .add h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-hero .left .add input {
+    width: 150px;
+    height: 56px;
+    background: #FFFFFF;
+    margin-left: 115px;
+    outline: none;
+    border: 1px solid #808191;
+    border-radius: 20px;
+}
+
+.main__inner-hero .left .add button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 16px 14px;
+    border: 1px solid #00B894;
+    border-radius: 12px;
+    margin-left: 30px;
+}
+
+.main__inner-hero .add button img {
+    width: 32px;
+    height: 32px;
+}
+
+.main__inner-hero .left .repaired {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main__inner-hero .left .repaired h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-hero .left .repaired input {
+    width: 150px;
+    height: 56px;
+    background: #FFFFFF;
+    margin-left: 115px;
+    outline: none;
+    border: 1px solid #808191;
+    border-radius: 20px;
+}
+
+.main__inner-hero .left .repaired button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 16px 14px;
+    border: 1px solid #00B894;
+    border-radius: 12px;
+    margin-left: 30px;
+}
+
+.main__inner-hero .repaired button img {
+    width: 32px;
+    height: 32px;
+}
+
+.main__inner-hero .left .broken {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main__inner-hero .left .broken h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-hero .left .broken input {
+    width: 150px;
+    height: 56px;
+    background: #FFFFFF;
+    margin-left: 115px;
+    outline: none;
+    border: 1px solid #808191;
+    border-radius: 20px;
+}
+
+.main__inner-hero .left .broken button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 16px 14px;
+    border: 1px solid #00B894;
+    border-radius: 12px;
+    margin-left: 30px;
+}
+
+.main__inner-hero .broken button img {
+    width: 32px;
+    height: 32px;
+}
+
+.main__inner-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 227px;
+}
+
+.main__inner-footer .day {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.main__inner-footer .day h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+}
+
+.main__inner-footer span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4E4F5F;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main__inner-footer .day button {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 30px;
+}
+
+.main__inner-footer .day button img {
+    width: 30px;
+    height: 30px;
+}
+
+.main__inner-footer .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__inner-footer .btns a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 18p1x 24px;
+    color: #0052CC;
+    border: 1px solid #0052CC;
+    border-radius: 20px;
+}
+
+.main__inner-footer .btns button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+    padding: 18px 24px;
+    color: #FFFFFF;
+    background: #00B894;
+    border-radius: 20px;
+    margin-left: 22px;
+    border: none;
+}
